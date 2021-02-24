@@ -22,7 +22,7 @@ pass_str=StringVar()
 def f1():
     x=s.ascii_letters+s.digits+s.punctuation
 
-    y=random.sample(x,8)
+    y=random.sample(x,length.get())
     u=''.join(y)
     pass_str.set(u)
 
