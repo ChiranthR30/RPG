@@ -54,9 +54,7 @@ def copy():
 b2=Button(root,text='Copy here',command=copy,font=1,bg='green')
 b2.pack()
 
-im=PhotoImage('wm2.gif')
-lab5=Label(root,image=im)
-lab5.pack()
+
 
 root.mainloop()
 
